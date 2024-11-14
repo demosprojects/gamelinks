@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Links - Descargas de Juegos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="logo.png" type="image/png">
+</head>
+<body>
+    <!-- Portada con Título -->
+    <header class="hero">
+        <h1 class="hero-title">Game Links </h1>
+        <p class="hero-subtitle">Descarga juegos para tu PC.</p>
+    </header>
+
+    <!-- Navegación -->
+    <nav class="navbar">
+        <a href="#juegos">Juegos</a>
+        <a href="#masbus">Mas buscados</a>
+    </nav>
+
+    <!-- Sección de Juegos (Directamente después de la portada) -->
+    <section id="juegos" class="games-section">
+        <h2>Descargas Destacadas</h2>
+        <div class="game-card">
+            <img src="https://raw.githubusercontent.com/demosprojects/game/main/pes2012.jpg" alt="Portada del Juego">
+            <h3>Pro Evolution Soccer 2012 (PES)</h3>
+            <p>Pro Evolution Soccer 2012 es un videojuego de fútbol desarrollado y publicado por Konami el 27 de septiembre de 2011</p>
+            <a href="enlace-mediafire" class="download-button"target="_blank">Descargar</a>
+        </div>
+        <div class="game-card">
+            <img src="https://raw.githubusercontent.com/demosprojects/game/main/f12.jpg" alt="Portada del Juego">
+            <h3>Formula one 2012</h3>
+            <p>F1 2012 es un videojuego de Fórmula 1 que representa la temporada 2012 de dicho deporte.</p>
+            <a href="https://www.mediafire.com/file/10u5qahwindcb1k/F1+2012.rar/file" class="download-button" target="_blank">Descargar</a>
+        </div>
+        <div class="game-card">
+            <img src="https://raw.githubusercontent.com/demosprojects/game/main/papers.jpg" alt="Portada del Juego">
+            <h3>Papers Please</h3>
+            <p>El juego, es un thriller distópico de control de documentos.</p>
+            <a href="https://www.mediafire.com/file/5atrjxgdf869gjt/PrsPls_ByDerek107.rar/file" class="download-button" target="_blank">Descargar</a>
+        </div>
+        <div class="game-card">
+            <img src="https://raw.githubusercontent.com/demosprojects/game/main/pes13.jpg" alt="Portada del Juego">
+            <h3>Pro Evolution Soccer 2013 (PES)</h3>
+            <p>Pro Evolution Soccer 2013 es un videojuego de fútbol de la serie Pro Evolution Soccer desarrollado y publicado por Konami.</p>
+            <a href="https://www.mediafire.com/file/wlfh8pgq82yry6o/P3S_13_-_OSLO.rar/file" class="download-button" target="_blank">Descargar</a>
+        </div>
+        <div class="game-card">
+            <img src="https://raw.githubusercontent.com/demosprojects/game/main/slime2.jpg" alt="Portada del Juego">
+            <h3>Slime Rancher</h3>
+            <p>Es un videojuego de aventuras de simulación de vida en primera persona.</p>
+            <a href="https://www.mediafire.com/file/mhi2wbcgv5rvvnf/Slime.Rancher%2528v1.4.4.Incl.All.DL.rar/file" class="download-button" target="_blank">Descargar</a>
+        </div>
+        <div class="game-card">
+            <img src="https://raw.githubusercontent.com/demosprojects/game/main/plantas.jpg" alt="Portada del Juego">
+            <h3>Plantas Vs. Zombies</h3>
+            <p>Plantas contra Zombis es un videojuego de defensa de torres de 2009 desarrollado y publicado por PopCap Games.</p>
+            <a href="https://www.mediafire.com/file/sqk3ddbntd2ltj8/Pvz-RH-2.1.3.zip/file" class="download-button" target="_blank">Descargar</a>
+        </div>
+        <!-- Puedes añadir más cards de juegos aquí -->
+    </section>
+<!-- Modal de aviso -->
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <p>Los links no son de mi autoría, fueron encontrados en toda la web.</p>
+        <button onclick="cerrarModal()" class="modal-close-button">Aceptar</button>
+    </div>
+</div>
+<!-- Script para controlar el modal -->
+<script>
+    // Mostrar el modal al cargar la página
+    window.onload = function() {
+        document.getElementById("modal").style.display = "flex";
+    };
+
+    // Función para cerrar el modal
+    function cerrarModal() {
+        document.getElementById("modal").style.display = "none";
+    }
+</script>
+
+    <!-- Pie de Página -->
+    <footer>
+        <p>© 2024 Game Links - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
+
